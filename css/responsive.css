@@ -1,0 +1,117 @@
+body
+{
+  margin: 1vh 0 1vh 0;
+}
+
+.grid
+{
+}
+
+@media screen and (max-width: 549px)
+{
+  .grid
+  {
+    width: 90%;
+  }
+
+  .ruler
+  {
+    border: 2em;
+  }
+
+  .logo
+  {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .author-title
+  {
+    font-size: 1em;
+    vertical-align: top;
+  }
+
+  .job-title
+  {
+    font-size: 1em;
+    vertical-align: bottom;
+  }
+
+  .code-image
+  {
+    width: 100%;
+    height: 67%;
+  }
+
+  .featured-row
+  {
+    width: 100%;
+  }
+
+  .featured-title
+  {
+    margin-top: 2em;
+    font-weight: 300;
+    font-size: 2em;
+  }
+
+  .featured-image
+  {
+    margin-right: 2em;
+  }
+
+  .featured-desc
+  {
+    vertical-align: top;
+  }
+
+  .featured-url
+  {
+    display: none;
+  }
+
+  #appify
+  {
+    order: 1;
+  }
+
+  #sunflower
+  {
+    order: 2;
+  }
+
+  #bokeh
+  {
+    order: 3;
+  }
+}
+
+
+@media screen and (min-width: 768px)
+{
+  .grid
+  {
+    width: 700px;
+  }
+
+  .featured-url
+  {
+    vertical-align: top;
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 900px)
+{
+  .grid
+  {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .featured-url
+  {
+    display: inline;
+  }
+}
