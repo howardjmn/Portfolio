@@ -3,20 +3,16 @@ body
   margin: 1vh 0 1vh 0;
 }
 
-.grid
-{
-}
-
 @media screen and (max-width: 549px)
 {
-  .grid
+  .main
   {
-    width: 90%;
+    width: 80%;
   }
 
   .ruler
   {
-    border: 2em;
+    margin: 1em;
   }
 
   .logo
@@ -67,7 +63,6 @@ body
 
   .featured-url
   {
-    display: none;
   }
 
   #appify
@@ -89,21 +84,21 @@ body
 
 @media screen and (min-width: 768px)
 {
-  .grid
+  .main
   {
-    width: 700px;
+    width: 680px;
   }
 
   .featured-url
   {
     vertical-align: top;
-    display: inline;
+    font-size: 85%;
   }
 }
 
 @media screen and (min-width: 900px)
 {
-  .grid
+  .main
   {
     width: 850px;
     margin-left: auto;
@@ -112,6 +107,5 @@ body
 
   .featured-url
   {
-    display: inline;
   }
 }
